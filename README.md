@@ -6,4 +6,4 @@ This Excel Visual Basic function is designed for use with regressions using the 
 ranges for the regression constants and the model variables (features).  
 
 Usage:
-In a cell enter "=LmFcast(" then Control A ... this pops up a dialog box to help you select the variables and constants correctly.  The attached worksheet contains the code and sample to demonstrate usage and a math check.  
+The formula is used "=LmFcast(cell range for constants, cell range for variables)".  In a cell enter "=LmFcast(" then Control A ... this pops up a dialog box to help you select the variables and constants correctly.  Make sure to fix the constant cell range using "$".  The attached worksheet contains the code and sample to demonstrate usage and a math check.  
