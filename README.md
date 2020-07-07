@@ -11,6 +11,7 @@ The formula is used "=LmFcast(cell range for constants, cell range for variables
 Function:
 The function code use the first element of the constants as the intercept then adds each pair (in opposite directions) until the remainder of the constants and variables are multiplied and added.  
 
+```
 Function LmFcast(rConstants As Range, rVariables As Range)
   Dim ArrV() As Variant: ArrV = Application.WorksheetFunction.Transpose(rVariables)
   Dim ArrC() As Variant: ArrC = Application.WorksheetFunction.Transpose(rConstants)
@@ -22,3 +23,4 @@ Function LmFcast(rConstants As Range, rVariables As Range)
       V = V + 1
   Next C
 End Function
+```
